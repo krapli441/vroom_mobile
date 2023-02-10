@@ -1,0 +1,80 @@
+/* 데스크탑 해상도 */
+
+@media screen and (max-width:1920px) { 
+  
+  .header_title {
+    font-size:128px;
+  }
+
+  .vroom_picture {
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+    width: 100vw; 
+    height: 30vh;
+    object-fit:cover;
+    object-position: 30% 15%;
+    filter:grayscale(100%);
+  }
+
+  .bottom_subject {
+    width: 100vw;
+    background-color: white;
+    color:black;
+    font-size: 24px;
+    text-align: end;
+  }
+
+  .description span {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+  }
+
+}
+
+/* 모바일 해상도 */
+
+@media screen and (max-width:590px) { 
+
+  .info_list {
+    margin-top: 5vh;
+    list-style: none;
+    text-align: center;
+    color:white;
+    padding: 0;
+    font-size: 48px;
+    transition: color 0.3s ease-out;
+  }
+
+  .header_title {
+    font-size:55px;
+  }
+
+  .vroom_picture {
+    display: block;
+    overflow:hidden;
+    width: 100vw; 
+    height: 15vh;
+    object-fit:cover;
+    object-position: 30% 15%;
+    filter:grayscale(100%);
+  }
+
+  .bottom_subject {
+    width: 100vw;
+    background-color: white;
+    color:black;
+    font-size: 14px;
+    text-align: end;
+  }
+
+  .description span {
+    display: block;
+    text-align: justify;
+    color: white;
+    font-size: 24px;
+  }
+
+}

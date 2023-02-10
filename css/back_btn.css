@@ -1,0 +1,21 @@
+.back_btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top:10px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  font-size: 28px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-out 50ms;
+  transition: color 0.2 ease-out 50ms;
+  }
+
+
+.back_btn:hover {
+background-color: black;
+color: white;
+}

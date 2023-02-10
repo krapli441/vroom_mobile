@@ -1,0 +1,17 @@
+
+.header_title {
+  margin-top: 0;
+  color:black;
+  text-align: center;
+  font-size: 55px;
+  background-color: white;
+}
+
+.header_title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text_bold {
+  font-weight: bold;
+}

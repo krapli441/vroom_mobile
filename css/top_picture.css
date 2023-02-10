@@ -1,0 +1,17 @@
+.picture {
+  overflow: hidden;
+}
+
+.vroom_picture {
+  display: block;
+  width: 100vw; 
+  height: 15vh;
+  object-fit:cover;
+  object-position: 30% 15%;
+  filter:grayscale(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.vroom_picture:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,21 @@
+@keyframes hover {
+  0% {
+    background-color:black;
+    color:white;
+  }
+
+  100% {
+    background-color: white;
+    color:black;
+  }
+}
+
+@keyframes picture_hover {
+  0% {
+    scale: 1.0;
+  }
+
+  100% {
+    scale: 1.2;
+  }
+}
